@@ -351,7 +351,7 @@ async def on_message(message):
         await message.channel.send(f'```{Defaulting(msg.split(" "))}```')
     elif msg.startswith("V!roll"):
         await message.channel.send(f'```{Rolling(msg.split(" "))}```')
-    elif msg.startswith("V!helo"):
+    elif msg.startswith("V!help"):
         await message.channel.send(f'```{Helping()}```')
     elif msg.startswith("V!"):
         await message.channel.send(
