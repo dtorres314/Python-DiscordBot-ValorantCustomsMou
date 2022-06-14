@@ -356,6 +356,8 @@ async def on_message(message):
     elif msg.startswith("V!"):
         await message.channel.send(
             "Command not recognized, use V!help for list of commands")
+    elif "<@&775743440851304488>" in msg:
+        await message.channel.send("Onz")
 
 
 keep_alive()
